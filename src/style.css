@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.contenedor-imagen {
+  position: relative;
+  text-align: center;
+}
+
+.contenedor-imagen img {
+  width: 800px;
+  height: auto;
+  align-content: center;
+}
+
+.texto-sobre-imagen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#generate-excuse {
+  font-family: "Roboto", sans-serif;
+}

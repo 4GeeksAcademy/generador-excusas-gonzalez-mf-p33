@@ -10,20 +10,38 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="cont d-flex flex-col h-full text-center">
+      <div class="mt-5">
+        <div class="contenedor-imagen">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5310/5310698.png"
+            alt="Descripción de la imagen"
+          />
+
+          <div class="texto-sobre-imagen">
+            <h3 id="excuse">
+              hello word
+            </h3>
+            <button id="generate-excuse" class="btn btn-success mt-3">
+              Generar
+            </button>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <div class="fixed-bottom p-4">
+      Made with ❤️ by
+      <a href="https://www.4geeksacademy.com">Mafer Gonzalez</a>
     </div>
   </body>
 </html>
